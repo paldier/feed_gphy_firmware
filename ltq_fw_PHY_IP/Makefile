@@ -6,10 +6,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ltq_fw_PHY_IP
 PKG_VERSION:=2.9
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_HASH:=41208f7603005e3532cc3899808f198cb47e852ec1c3e87d8c9d0a5b708bcfab
-PKG_RELEASE:=1
-PKG_SOURCE_URL:=http://localhost
+PKG_SOURCE_PROTO:=git
+PKG_SOURCE_URL:=https://intel.prpl.dev/intel/ltq_fw_phy_ip.git
+PKG_SOURCE_DATE:=2020-03-09
+PKG_SOURCE_VERSION:=2a0cb7c6daf66f5071044cdc62c2b423b34edd45
+
 
 include $(INCLUDE_DIR)/package.mk
 
