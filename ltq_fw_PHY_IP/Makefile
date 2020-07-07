@@ -7,7 +7,7 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=ltq_fw_PHY_IP
 PKG_VERSION:=2.9
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://intel.prpl.dev/intel/ltq_fw_phy_ip.git
+PKG_SOURCE_URL:=https://github.com/paldier/ltq_fw_phy_ip.git
 PKG_SOURCE_DATE:=2020-03-09
 PKG_SOURCE_VERSION:=2a0cb7c6daf66f5071044cdc62c2b423b34edd45
 
